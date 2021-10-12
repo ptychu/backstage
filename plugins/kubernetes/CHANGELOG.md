@@ -1,5 +1,15 @@
 # @backstage/plugin-kubernetes
 
+## 0.4.17
+
+### Patch Changes
+
+- 89bcf90b66: Refactor kubernetes fetcher to reduce boilerplate code
+- Updated dependencies
+  - @backstage/core-components@0.7.0
+  - @backstage/theme@0.2.11
+  - @backstage/plugin-catalog-react@0.5.3
+
 ## 0.4.16
 
 ### Patch Changes

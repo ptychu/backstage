@@ -1,5 +1,15 @@
 # @backstage/plugin-catalog-react
 
+## 0.5.3
+
+### Patch Changes
+
+- 4aca84f86b: Support `material-ui` overrides in plugin-catalog-react components
+- b03b9f19e0: added sorting in entity `Name` column by `metadata.title` if present
+- Updated dependencies
+  - @backstage/core-app-api@0.1.17
+  - @backstage/core-components@0.7.0
+
 ## 0.5.2
 
 ### Patch Changes

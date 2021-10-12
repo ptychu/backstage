@@ -1,5 +1,22 @@
 # @backstage/core-components
 
+## 0.7.0
+
+### Minor Changes
+
+- 5c42360577: Add documentation and more type safety around DependencyGraph
+- a20cbf00d2: The syntax highlighting library used by the `CodeSnippet` component is now lazy loaded. This most likely has no effect on existing code, but may break tests as the content of the `CodeSnippet` is now rendered asynchronously.
+
+### Patch Changes
+
+- 75bc878221: Internal refactor to avoid importing all of `@material-ui/core`.
+- 6ec56d5a57: update the null check to use the optional chaining operator in case of non-null assertion operator is not working in function extractInitials(values: string)
+- 81c2a1af86: Resolve a warning in `<Button>` related to not using `React.forwardRef`.
+- 53470ada54: Fix search in Firefox. When the search was performed by pressing enter, the query parameter was first set but then reverted back.
+- 2435d7a49b: Deprecated HomepageTimer in favor of HeaderWorldClock which is found in the [home plugin](https://github.com/backstage/backstage/tree/master/plugins/home)
+- Updated dependencies
+  - @backstage/theme@0.2.11
+
 ## 0.6.1
 
 ### Patch Changes

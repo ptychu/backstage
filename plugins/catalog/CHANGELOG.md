@@ -1,5 +1,17 @@
 # @backstage/plugin-catalog
 
+## 0.7.1
+
+### Patch Changes
+
+- 93a13dfb42: Support `material-ui` overrides in SystemDiagramCard and EmptityLinksEmptyState components
+- b03b9f19e0: added sorting in entity `Name` column by `metadata.title` if present
+- Updated dependencies
+  - @backstage/core-components@0.7.0
+  - @backstage/theme@0.2.11
+  - @backstage/plugin-catalog-react@0.5.3
+  - @backstage/integration-react@0.1.12
+
 ## 0.7.0
 
 ### Minor Changes

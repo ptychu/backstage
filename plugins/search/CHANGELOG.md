@@ -1,5 +1,15 @@
 # @backstage/plugin-search
 
+## 0.4.15
+
+### Patch Changes
+
+- 56bd537256: SearchBar component to accept optional placeholder prop
+- Updated dependencies
+  - @backstage/core-components@0.7.0
+  - @backstage/theme@0.2.11
+  - @backstage/plugin-catalog-react@0.5.3
+
 ## 0.4.14
 
 ### Patch Changes

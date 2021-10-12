@@ -1,5 +1,18 @@
 # @backstage/plugin-api-docs
 
+## 0.6.12
+
+### Patch Changes
+
+- d03ee85ff8: Bump `swagger-ui-react` to `^4.0.0-rc.3`.
+- 3c50c86604: Remove unused dependency on material-icons/font
+- b6ab93c421: Add actions props to the ApiExplorerPage
+- Updated dependencies
+  - @backstage/core-components@0.7.0
+  - @backstage/theme@0.2.11
+  - @backstage/plugin-catalog@0.7.1
+  - @backstage/plugin-catalog-react@0.5.3
+
 ## 0.6.11
 
 ### Patch Changes
